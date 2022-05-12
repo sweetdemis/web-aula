@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sarah Picenni</title> <!--titulo da pagina-->
+        <meta name="keywords" content="exercicio, html, programação web, if"> <!--palavras chave-->
+        <meta name="author" content="sarah picenni"> <!--autor-->
+    </head>
+    <body>
+        <div> <!--links para os outros exercicios-->
+            <ul> <h4 style="color:tomato">links:</h4>
+                <li><a href="exercicio1.html"style="color:tomato">exercício 1</a> </li>
+                <li><a href="exercicio2.html"style="color:tomato">exercício 2</a> </li>
+                <li><a href="exercicio3.html"style="color:tomato">exercício 3</a> </li>
+                <li><a href="exercicio4.html"style="color:tomato">exercício 4</a> </li>
+            </ul><hr>
+        </div>
+        <div>
+        <p>oi, tudo bem?</p> <!--pequena saudação-->
+        <h4 style="color:blueviolet">descrição da sala</h4>
+        <p>a sala é verde, tem duas janelas, uns 30 computadores em cima de mesas brancas, teto branco, porta verde</p>
+        <h4 style="color:blueviolet">descrição de um colega do lado</h4> <!--desc da sala-->
+        <p><i>jessica<strong> gelsdorf</strong></i> ou jeje, hoje ela estava toda de preto com uma jaqueta de couro e um delineado muito bonito, 
+            e seu all star laranja cano alto</p><hr> <!--desc do coleguinha-->
+        
+        </div>
+
+        <div>
+            <blockquote>
+                <h1 style="color:chocolate">batatinha</h1> <!--poema da batatinha-->
+                <p> 
+                    <p>
+                        Batatinha quando nasce
+                        <br/>Espalha a rama pelo chão
+                        <br/>O brotinho quando ama
+                        <br/>Poe a mão, no coração
+                    </p>
+                    <p>
+                        <br/>Eu também já fui brotinho
+                        <br/>E vivi de ilusão
+                        <br/>Cresci, fiquei sabida
+                        <br/>Não dou mais o coração
+                   </p>
+                   <p>
+                    <br/>Batatinha quando nasce
+                    <br/>Se esparrama pelo chão
+                    <br/>Menininha quando dorme
+                    <br/>Põe a mão no coração
+                   </p>
+                    <p>
+                        <br/>Eu também já fui brotinho
+                        <br/>E vivi de ilusão
+                        <br/>Cresci, fiquei sabida
+                        <br/>Não dou mais o coração
+                    </p><hr>
+                </blockquote>
+                </p>
+        </div>
+
+        <div>
+            <ul><h4 style="color:crimson">pais</h4> <!--listas-->
+                <li>sirlei</li>
+                <li>alexandre</li>
+            </ul>
+            <ul><h4 style="color:crimson">irmãos</h4>
+                <li>nenhum</li>
+            </ul>
+            <ul><h4 style="color:crimson">primos</h4>
+                <li>bibi</li>
+                <li>fran</li>
+            </ul><hr>
+            <ol><h4>cores favoritas</h4>
+                <li style="color:lightskyblue">azul</li>
+                <li style="color:rgb(250, 206, 152)">bege</li>
+                <li style="color:rgb(172, 82, 17)">caramelo</li>
+            </ol><hr>
+        </div>
+
+        <div>
+            <div> 
+                <table border="1"> <!--tabela-->
+                    <tr>
+                        <th style="color:rgb(108, 212, 3)">artigo</th>
+                        <th colspan="2" style="color:rgb(108, 212, 3)">preço</th>
+                    </tr>
+                    <tr> 
+                        <th rowspan="2">gnats</th>
+                        <td>grama</td>
+                        <td>13,65</td>
+                    </tr>
+                    <tr>
+                        <td>cada</td>
+                        <td>0,01</td>
+                    </tr>
+                    <tr>
+                        <td>gnu</td>
+                        <th rowspan="2"> preenchido</th>
+                        <td>92,50</td>
+                    </tr>
+                    <tr>
+                        <td>emu</td>
+                        <td>33,33</td>
+                    </tr>
+                    <tr>
+                        <td>armadillo</td>
+                        <td>congelado</td>
+                        <td>8,99</td>
+                    </tr>
+                </table>
+            </div><hr>
+        </div>
+
+        <div>
+            <form method="get" action="contato.php"></form> <!--formulario-->
+            <title>formulario</title>
+            <br/>
+            <form>
+                <div class="col"> 
+                    <h3 style="color:darkred">Formulário</h3>
+                    <label for="nome" style="color:darkred">nome: </label>
+                    <label> <input id="nome" type="text" placeholder="digite seu nome" name="nome"></label>
+                    <br/> <label for="password" style="color:darkred">senha: </label>
+                    <label> <input for="senha" type="password" placeholder="digite sua senha" name="senha"></label>
+                </div>
+                <br/>
+                <div>
+                    <label for="salario" style="color:darkred">em qual moeda você prefere receber o seu salário?</label>
+
+                    <br/> <label><input type="radio" name="salario" value="real">real</label>
+                    <br/> <label><input type="radio" name="salario" value="dolar">dolar</label>
+                    <br/> <label><input type="radio" name="salario" value="euro">euro</label>
+                    <br/> <label><input type="radio" name="salario" value="yen">yen</label>
+                </div>
+                <br/>
+                <div>
+                    
+                    <label for="afirmacoes" style="color:darkred">quais afirmaçoes a seguir voce considera verdadeiras</label>
+                    <br/><input type="checkbox" name="abstinente"> o boris yeltsin é abstinente
+                    <br/><input type="checkbox" name="casto"> o bill clinton é casto
+                    <br/><input type="checkbox" name="pobre"> o bill gates é pobre
+                    <br/><input type="checkbox" name="atriz"> a fernanda montenegro é péssima atriz
+                    <br/><input type="checkbox" name="beldade"> a bibi ferreira é uma beldade
+                    <br/><input type="checkbox" name="programacao"> o linus torvalds não entende de programação
+                </div>
+                <br/>
+                <div>
+                    arquivo para envio <input type="file" placeholder="escolher arquivo"> 
+                </div>
+                <br/>
+                <div>
+                    <p style="color:darkred">gostaria de fazer um comentario?<p>
+                    <textarea type="msg" placeholder="coloque o seu comentário aqui"></textarea>
+                </div>
+                <br/>
+                <div>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="limpar">
+                </div>
+            </form>
+            
+        </div>
+        <footer><p>augusto manoel da silva, 145 - guará, xangri-lá</p></footer>
+    </body>
+</html>
